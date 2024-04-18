@@ -1,14 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0e0e0;
     margin: 0;
     padding: 0;
+    color: #333; 
 }
 
 .container {
-    width: 400px;
+    width: 600px;
     margin: 100px auto;
-    background-color: #fff;
+    background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,7 +17,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #222;
 }
 
 .form-group {
@@ -26,21 +27,22 @@ h2 {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #666;
+    color: #555; 
 }
 
-input{
+input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    border: 1px solid #aaa;
     border-radius: 3px;
+    background-color: #fff; 
 }
 
 button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #6c757d; 
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -48,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #5a6268;
 }
 
 p {
