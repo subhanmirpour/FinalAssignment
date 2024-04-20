@@ -17,5 +17,5 @@ app.listen(port, ()=> {
 app.use(express.json());
 
 app.use(errorHandler);
-//app.use("/api/tasks", require("./routes/taskRoutes")); 
+app.use("/api/tasks", require("./routes/taskRoutes")); 
 app.use("/api/users", require("./routes/userRoutes"));
