@@ -1,3 +1,5 @@
+// folder: controllers
+// file: userController.js
 const asyncHandler = require("express-async-handler");
 const User = require("../models/userModel");
 const mongoose = require("mongoose");
@@ -76,6 +78,4 @@ const loginUser = asyncHandler(async(req, res) =>{
 const currentUser = asyncHandler(async(req, res) =>{
     res.status(200).json(req.user);
 }) ;
-
-
 module.exports = { registerUser, loginUser, currentUser };
