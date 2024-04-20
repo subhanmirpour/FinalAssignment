@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Management App - Login</title>
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -24,9 +24,11 @@
             </div>
             <button type="submit">Login</button>
         </form>
+        <div id="errorMessages" class="d-none" style="color:red;"></div> <!-- Error message display -->
+        <div id="flashMessage" class="d-none" style="color:green;"></div> <!-- Flash message display -->
         <p>Don't have an account? <a href="register.html">Register here</a></p>
         <p>Go back to homepage <a href="index.html">Homepage</a></p>
     </div>
-    <script src="scripts.js"></script> 
+    <script src="./js/login.js"></script>
 </body>
 </html>
