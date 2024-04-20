@@ -35,7 +35,7 @@ function submitTaskForm(event) {
 
 // This function sends a POST request to create a new task.
 function createTask(taskData) {
-    fetch('/api/tasks', {
+    fetch('http://localhost:5001/api/tasks', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ function createTask(taskData) {
 
 // This function sends a PUT request to update an existing task.
 function updateTask(taskId, taskData) {
-    fetch(`/api/tasks/${taskId}`, {
+    fetch(`http://localhost:5001/api/tasks/${taskId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -83,7 +83,7 @@ function updateTask(taskId, taskData) {
 
 // This function fetches and displays tasks from the server.
 function loadTasks() {
-    fetch('/api/tasks', {
+    fetch('http://localhost:5001/api/tasks', {
         headers: {
             'Authorization': `Bearer ${sessionStorage.getItem('accessToken')}`
         }

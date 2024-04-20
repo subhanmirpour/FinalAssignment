@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 600px; /* Adjusted to a fixed width. If responsiveness is needed, consider using max-width */
+    width: 600px; 
     margin: 100px auto;
     background-color: #f9f9f9;
     padding: 20px;
@@ -15,7 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 { /* Assuming you might also use h1 for the page title */
+h1, h2 { 
     text-align: center;
     color: #222;
 }
@@ -47,7 +47,7 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-top: 10px; /* Added margin-top for spacing */
+    margin-top: 10px; 
 }
 
 button:hover {
@@ -63,7 +63,7 @@ li {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 5px;
-    border-radius: 3px; /* Added border-radius to match input fields */
+    border-radius: 3px;
 }
 
 p {
