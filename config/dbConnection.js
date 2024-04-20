@@ -1,3 +1,5 @@
+// folder: config
+// file: dbConnection.js
 const mongoose = require("mongoose");
 const connectDb = async () => {
     try {
